@@ -36,6 +36,7 @@ public class Chessman {
 
 	public void setValue(Integer value) {
 		this.value = value;
+		updateColor();
 	}
 
 	public Positon getPositon() {

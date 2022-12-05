@@ -40,6 +40,8 @@ public class Check {
 //			System.out.println(mustMove);
 			return mustMove;
 		}
+		System.out.println(board.toString());
+		System.out.println(chessman.getPositon().toString());
 		return result;
 	}
 
